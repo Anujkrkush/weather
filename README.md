@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -172,3 +173,5 @@ input_df = pd.DataFrame([input_data], columns=['pressure', 'dewpoint', 'humidity
 
 prediction=best_rf_model.predict(input_df)
 print("prediton result:","rainfall" if prediction[0]==1 else "No Rainfall")
+=======
+>>>>>>> c8459f1fea52f43e52d4279240335b0c10ff6084
